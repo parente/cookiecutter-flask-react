@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EchoOutput should be hidden when there is a blank value 1`] = `
+<div
+  className="alert alert-primary"
+  hidden={true}
+>
+  <span
+    className="badge badge-light"
+  >
+    Server says:
+  </span>
+   
+</div>
+`;
+
+exports[`EchoOutput should render an initial value 1`] = `
+<div
+  className="alert alert-primary"
+  hidden={false}
+>
+  <span
+    className="badge badge-light"
+  >
+    Server says:
+  </span>
+   
+  test-value
+</div>
+`;

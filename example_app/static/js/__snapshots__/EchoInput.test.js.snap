@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EchoInput should render a new value when updated 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <div
+    className="form-row"
+  >
+    <div
+      className="form-group col-sm-11"
+    >
+      <input
+        autoFocus={true}
+        className="form-control"
+        onChange={[MockFunction]}
+        placeholder="Enter something"
+        type="text"
+        value="new-test-value"
+      />
+    </div>
+    <div
+      className="col-sm-1"
+    >
+      <button
+        className="btn btn-primary"
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`EchoInput should render an initial value 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <div
+    className="form-row"
+  >
+    <div
+      className="form-group col-sm-11"
+    >
+      <input
+        autoFocus={true}
+        className="form-control"
+        onChange={[MockFunction]}
+        placeholder="Enter something"
+        type="text"
+        value="test-value"
+      />
+    </div>
+    <div
+      className="col-sm-1"
+    >
+      <button
+        className="btn btn-primary"
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+</form>
+`;

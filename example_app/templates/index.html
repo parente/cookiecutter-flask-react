@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+<script>
+  initApp({
+    homeUrl: "{{ url_for('ui.index') }}",
+    echoUrl: "{{ url_for('api.echo', value='') }}",
+  });
+</script>
+{% endblock %}
