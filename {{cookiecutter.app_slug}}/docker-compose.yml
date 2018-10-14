@@ -3,10 +3,10 @@ version: "3.3"
 
 services:
   web:
-    image: hub.docker.io/parente/example_app
+    image: {{ cookiecutter.docker_image }}
     ports:
       - "8080:8080"
-    command: gunicorn -b 0.0.0.0:8080 --access-logfile - -w 1 example_app:app
+    command: gunicorn -b 0.0.0.0:8080 --access-logfile - -w 1 {{ cookiecutter.app_module }}:app
     deploy:
       replicas: 3
     secrets:

@@ -1,0 +1,7 @@
+{
+    "app_name": "Example App",
+    "app_slug": "{{ cookiecutter.app_name|lower|replace(' ', '-') }}",
+    "app_module": "{{ cookiecutter.app_slug|replace('-', '_')|replace(' ', '_') }}",
+    "docker_image": "parente/{{ cookiecutter.app_module }}",
+    "app_description": "{{ cookiecutter.app_name }} is a Flask+React web app"
+}

@@ -1,17 +1,17 @@
-import example_app
+import {{ cookiecutter.app_module }}
 import pytest
 
 
 @pytest.fixture
 def client():
     """Flask test client"""
-    example_app.app.tesing = True
-    return example_app.app.test_client()
+    {{ cookiecutter.app_module }}.app.tesing = True
+    return {{ cookiecutter.app_module }}.app.test_client()
 
 
 def test_version():
     """Package should have a version defined"""
-    version = getattr(example_app, '__version__', None)
+    version = getattr({{ cookiecutter.app_module }}, '__version__', None)
     assert version is not None
 
 

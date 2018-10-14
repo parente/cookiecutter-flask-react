@@ -1,2 +1,0 @@
-include versioneer.py
-include example_app/_version.py
