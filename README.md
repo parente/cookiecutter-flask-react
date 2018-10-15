@@ -1,3 +1,13 @@
 # cookiecutter-flask-react
 
-Not yet a true cookiecutter. Getting there.
+```
+cookiecutter https://github.com/parente/cookeicutter-flask-react.git
+```
+
+* [x] Flask
+* [x] Pytest
+* [x] React
+* [x] Bootstrap
+* [x] Jest
+* [x] Docker
+* [ ] Travis
