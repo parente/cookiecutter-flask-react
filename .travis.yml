@@ -1,0 +1,15 @@
+language: python
+services:
+  - docker
+install:
+  - pip install cookiecutter
+script:
+  - COOKIECUTTER_DIR=$(mktemp -d)
+  - cookiecutter --no-input --default-config -o $COOKIECUTTER_DIR .
+  - push $COOKIECUTTER_DIR/example-app
+  - make pydev-image
+  - make jsdev-image
+  - make pydev-test
+  - sudo make clean
+  - make jsdev-test
+  - popd
