@@ -9,7 +9,7 @@ script:
   - pushd $COOKIECUTTER_DIR/example-app
   - make pydev-image
   - make jsdev-image
-  - make pydev-test
+  - make pytest
   - sudo make clean
-  - make jsdev-test
+  - make jstest
   - popd
