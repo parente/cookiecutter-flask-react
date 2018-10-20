@@ -6,7 +6,7 @@ install:
 script:
   - COOKIECUTTER_DIR=$(mktemp -d)
   - cookiecutter --no-input --default-config -o $COOKIECUTTER_DIR .
-  - push $COOKIECUTTER_DIR/example-app
+  - pushd $COOKIECUTTER_DIR/example-app
   - make pydev-image
   - make jsdev-image
   - make pydev-test
