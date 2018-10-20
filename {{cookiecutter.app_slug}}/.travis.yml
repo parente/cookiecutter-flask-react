@@ -1,0 +1,11 @@
+language: python
+sudo: required
+services:
+  - docker
+install:
+  - make pydev-image
+  - make jsdev-image
+script:
+  - make pytest
+  - sudo make clean
+  - make jstest

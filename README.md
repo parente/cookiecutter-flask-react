@@ -1,7 +1,7 @@
 # cookiecutter-flask-react
 
 ```
-cookiecutter https://github.com/parente/cookeicutter-flask-react.git
+cookiecutter https://github.com/parente/cookiecutter-flask-react.git
 ```
 
 * [x] Flask
@@ -10,4 +10,4 @@ cookiecutter https://github.com/parente/cookeicutter-flask-react.git
 * [x] Bootstrap
 * [x] Jest
 * [x] Docker
-* [ ] Travis
+* [x] Travis
