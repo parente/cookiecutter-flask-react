@@ -5,5 +5,5 @@
     "docker_image": "parente/{{ cookiecutter.app_module }}",
     "app_description": "{{ cookiecutter.app_name }} is a Flask+React web app",
     "app_author": "Peter Parente",
-    "app_license" "MIT"
+    "app_license": "MIT"
 }
