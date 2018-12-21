@@ -5,7 +5,7 @@ import pytest
 @pytest.fixture
 def client():
     """Flask test client"""
-    {{ cookiecutter.app_module }}.app.tesing = True
+    {{ cookiecutter.app_module }}.app.testing = True
     return {{ cookiecutter.app_module }}.app.test_client()
 
 
