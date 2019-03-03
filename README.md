@@ -20,4 +20,4 @@ development and testing with:
 * [Make](https://www.gnu.org/software/make/) targets for convenient control of all of the above
 * [Travis CI](http://travis-ci.org) config for continuous integration
 
-See https://cookiecutter-flask-react-ksemorxopj.now.sh for an example deployment of a production build of the example app on [ZEIT](https://zeit.co) and https://zeit.co/parente/cookiecutter-flask-react/ksemorxopj/logs for its logs.
+See https://cookiecutter-flask-react-ksemorxopj.now.sh for an example deployment of a production build of the example app on [ZEIT](https://zeit.co) and https://zeit.co/parente/cookiecutter-flask-react/deployment/ksemorxopj/logs for its logs.
